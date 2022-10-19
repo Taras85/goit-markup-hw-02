@@ -4,6 +4,9 @@ font-color-p #757575
 logo-color-blue #2196f3
 logo-color-black #000000
 font-color-baner #ffffff
+#F5F4FA
+#2F303A
+rgba(255, 255, 255, 0.6)
 */
 /* 
 :hover- при наведенні мишки міняеться (шрифт,колір )
@@ -12,3 +15,19 @@ font-color-baner #ffffff
 :
 */
 
+
+
+/* Шапка сайта */
+body {
+    background-color: #fff;
+    color: #757575
+}
+.site-nav a:active,
+.site-nav a:focus,
+.site-nav a:hover {
+    color: #2196f3;
+}
+
+/* Головний блок */
+
+/* Підвал сайту */
