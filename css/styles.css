@@ -1,10 +1,13 @@
 /* 
-font-color-title #212121
-font-color-p #757575
-logo-color-blue #2196f3
+колір заголовку #212121
+колір абзацу #757575
+
+logo-color-blue акцент #2196f3
 logo-color-black #000000
 font-color-baner #ffffff
-#F5F4FA
+фон банера #2F303A
+вторичний цвет фона #F5F4FA
+
 #2F303A
 rgba(255, 255, 255, 0.6)
 */
@@ -15,17 +18,15 @@ rgba(255, 255, 255, 0.6)
 :
 */
 
-
-
 /* Шапка сайта */
 body {
-    background-color: #fff;
-    color: #757575
+	background-color: #ffffff;
+	color: #757575;
 }
 .site-nav a:active,
 .site-nav a:focus,
 .site-nav a:hover {
-    color: #2196f3;
+	color: #2196f3;
 }
 
 /* Головний блок */
