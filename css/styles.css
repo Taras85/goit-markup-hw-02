@@ -97,8 +97,8 @@ body {
   color: var(--background-body-color-font-baner);
   background-color: var(--accent-color-btn);
   cursor: pointer;
-  width: 216px;
-  height: 50px;
+  /* width: 216px;
+  height: 50px; */
 }
 .baner-btn:hover,
 .baner-btn:focus {
