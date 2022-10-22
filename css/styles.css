@@ -1,6 +1,3 @@
-/* 
-:active - при кліку міняє () */
-
 :root {
   --font-color-paragraph: #757575;
   --background-body-color-font-baner: #ffffff;
@@ -12,42 +9,27 @@
   --secondary-btn: #188ce8;
 }
 
-/* Шапка сайта */
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: var(--background-body-color-font-baner);
-  color: var(--font-color-paragraph);
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
-.logo {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
-  color: var(--accent-color-btn);
-  cursor: pointer;
-}
-.logo-header {
-  color: var(--font-secondary-logo);
-}
+
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
-.nav-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
-  color: #212121;
-  cursor: pointer;
-}
 
-.current {
-  color: var(--accent-color-btn);
-}
 .filter-btn:hover,
 .filter-btn:focus,
 .nav-link:hover,
@@ -60,6 +42,44 @@ body {
 .adds-direction:focus {
   color: #2196f3;
 }
+.baner-btn:hover,
+.baner-btn:focus {
+  background-color: var(--secondary-btn);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-body-color-font-baner);
+  color: var(--font-color-paragraph);
+}
+
+
+/* Шапка сайта */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--accent-color-btn);
+  cursor: pointer;
+}
+.logo-header {
+  color: var(--font-secondary-logo);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--font-color-title-h2-h3);
+  cursor: pointer;
+}
+
+.current {
+  color: var(--accent-color-btn);
+}
 
 .header-contacts {
   font-weight: 500;
@@ -70,11 +90,12 @@ body {
   cursor: pointer;
 }
 
+
 /* Головний блок головної сторінки */
+/* Блок банер */
 .base-baner {
   background-color: var(--banner-footer-background-color);
 }
-
 .baner-title {
   font-weight: 900;
   font-size: 44px;
@@ -84,7 +105,6 @@ body {
   text-transform: uppercase;
   color: var(--background-body-color-font-baner);
 }
-
 .baner-btn {
   font-family: inherit;
   font-weight: 700;
@@ -100,11 +120,8 @@ body {
   background-color: var(--accent-color-btn);
   cursor: pointer;
 }
-.baner-btn:hover,
-.baner-btn:focus {
-  background-color: var(--secondary-btn);
-}
 
+/* Блок наші пріоритети */
 .priorities-caption {
   font-weight: 700;
   font-size: 14px;
@@ -113,7 +130,6 @@ body {
   text-transform: uppercase;
   color: var(--font-color-title-h2-h3);
 }
-
 .priorities-paragraph {
   font-weight: 400;
   font-size: 14px;
@@ -131,50 +147,36 @@ body {
   color: var(--font-color-title-h2-h3);
 }
 
+/* Блок наша команда */
 .base-team {
   background-color: var(--team-background-color);
 }
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
-
-.team-caption {
+.team-full-name {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--font-color-title-h2-h3);
 }
-
-.team-paragraph {
+.team-post{
   font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 /* Підвал сайту */
 footer {
   background-color: var(--banner-footer-background-color);
 }
 address {
-  font-style: normal;
+  font-style: normal; 
 }
-
 .logo-footer {
   color: var(--background-body-color-font-baner);
 }
-
 .adds-direction {
   font-weight: 400;
   font-size: 14px;
@@ -183,7 +185,6 @@ address {
   color: var(--background-body-color-font-baner);
   cursor: pointer;
 }
-
 .contact-footer {
   font-weight: 400;
   font-size: 14px;
@@ -194,23 +195,7 @@ address {
 }
 
 /* Галерея основна частина*/
-
-.gallery-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: calc(36 / 18);
-  letter-spacing: 0.06em;
-  color: var(--font-color-title-h2-h3);
-  cursor: pointer;
-}
-.gallery-type {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: calc(30 / 16);
-  letter-spacing: 0.03em;
-  color: #757575;
-  cursor: pointer;
-}
+/* Блок фільтру галереї */
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: var(--accent-color-btn);
@@ -229,5 +214,22 @@ address {
   letter-spacing: 0.03em;
   background-color: var(--team-background-color);
   color: var(--font-color-title-h2-h3);
+  cursor: pointer;
+}
+/* Блок галереї */
+.gallery-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--font-color-title-h2-h3);
+  cursor: pointer;
+}
+.gallery-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: #757575;
   cursor: pointer;
 }
