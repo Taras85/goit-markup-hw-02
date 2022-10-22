@@ -22,14 +22,6 @@
   margin: -1px;
 }
 
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
 .filter-btn:hover,
 .filter-btn:focus,
 .nav-link:hover,
@@ -53,6 +45,13 @@ body {
   color: var(--font-color-paragraph);
 }
 
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
 
 /* Шапка сайта */
 .logo {
