@@ -45,10 +45,11 @@ body {
   cursor: pointer;
 }
 
-:current(a) {
-  color: tomato;
+.current {
+  color: var(--accent-color-btn);
 }
-
+.filter-btn:hover,
+.filter-btn:focus,
 .nav-link:hover,
 .nav-link:focus,
 .header-contacts:hover,
@@ -69,7 +70,7 @@ body {
   cursor: pointer;
 }
 
-/* Головний блок */
+/* Головний блок головної сторінки */
 .base-baner {
   background-color: var(--banner-footer-background-color);
 }
@@ -93,12 +94,11 @@ body {
   justify-content: space-around;
   align-items: center;
   text-align: center;
+  border: none;
   letter-spacing: 0.06em;
   color: var(--background-body-color-font-baner);
   background-color: var(--accent-color-btn);
   cursor: pointer;
-  /* width: 216px;
-  height: 50px; */
 }
 .baner-btn:hover,
 .baner-btn:focus {
@@ -106,7 +106,6 @@ body {
 }
 
 .priorities-caption {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -191,5 +190,44 @@ address {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+/* Галерея основна частина*/
+
+.gallery-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--font-color-title-h2-h3);
+  cursor: pointer;
+}
+.gallery-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: #757575;
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color-btn);
+  color: var(--background-body-color-font-baner);
+}
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  letter-spacing: 0.03em;
+  background-color: var(--team-background-color);
+  color: var(--font-color-title-h2-h3);
   cursor: pointer;
 }
