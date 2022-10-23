@@ -61,7 +61,7 @@ body {
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: var(--accent-color-btn);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .logo-header {
   color: var(--font-secondary-logo);
@@ -73,7 +73,7 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--font-color-title-h2-h3);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .current {
@@ -86,7 +86,7 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--font-color-paragraph);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 
@@ -117,12 +117,12 @@ body {
   letter-spacing: 0.06em;
   color: var(--background-body-color-font-baner);
   background-color: var(--accent-color-btn);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 /* Блок наші пріоритети */
 .priorities-caption {
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -130,7 +130,7 @@ body {
   color: var(--font-color-title-h2-h3);
 }
 .priorities-paragraph {
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -138,7 +138,7 @@ body {
 
 .directions-title,
 .team-title {
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -159,7 +159,7 @@ body {
   color: var(--font-color-title-h2-h3);
 }
 .team-post{
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -177,21 +177,21 @@ address {
   color: var(--background-body-color-font-baner);
 }
 .adds-direction {
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--background-body-color-font-baner);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .contact-footer {
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  cursor: pointer;
-}
+  /* cursor: pointer;
+} */
 
 /* Галерея основна частина*/
 /* Блок фільтру галереї */
