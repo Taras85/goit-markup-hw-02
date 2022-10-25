@@ -217,7 +217,6 @@ address {
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--font-color-title-h2-h3);
-  cursor: pointer;
 }
 .gallery-type {
   font-weight: 400;
@@ -225,5 +224,4 @@ address {
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: #757575;
-  cursor: pointer;
 }
